@@ -1,3 +1,4 @@
+ //promise on the  
  let p = new Promise ((resolve , reject ) => {
     let a = 1 + 1
     if (a==2)
@@ -12,3 +13,4 @@ else {
  }) .catch((message) => {
     console.log ('this is the catch ' + message)
  })
+// premio
