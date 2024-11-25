@@ -8,6 +8,8 @@ else {
     reject (failed)
 }
  })
+
+ // promise
  p.then((message) =>{
     console.log ("this is the then" + message)
  }) .catch((message) => {
